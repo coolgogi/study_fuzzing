@@ -16,8 +16,8 @@ int runner(char * exec, char * input){
 
 		// FILE *fp = freopen("stdout.txt","r", stdout);
 		// int rt = execl("./test/exec", "abc", (char *) NULL);
-		int rt = execl("./test/exec", 0);
-		// int rt = execl("/Users/coolgogi/Documents/Master/study_fuzzing/runner/test", "./test/exec", "bbc");
+		// int rt = execl("./test/exec", 0);
+		int rt = execl("~/Documents/Master/study_fuzzing/runner/test", "exec", "bbc");
 		if(rt == -1){
 			// fclose(fp);
 			// FILE *f_err = freopen("./output/stderr.txt", "r", stdout);
