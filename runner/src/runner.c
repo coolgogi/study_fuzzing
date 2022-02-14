@@ -23,7 +23,6 @@ int runner(char * exec, char * input){
 			// FILE *f_err = freopen("./output/stderr.txt", "r", stdout);
 			perror("Error in runner");
 			// fclose(f_err);
-			return -1;
 		}
 		printf("1\n");
 	}else{
